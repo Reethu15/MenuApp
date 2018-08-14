@@ -1,0 +1,18 @@
+<html ng-app="MenuApp">
+    <head>
+        <title>Restaurant Menu</title>
+        <script src="angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    </head>
+    <body>
+        <p>
+            <a href="#/!">Home</a>
+        </p>
+        <a href="#!categories">Categories</a>
+        <a href="#!items">Items</a>
+        <div ng-view></div>
+        <script src="menuApp.js"></script>
+        <script src="categoriesCtrl.js"></script>
+        <script src="itemsCtrl.js"></script>
+    </body>
+</html>
