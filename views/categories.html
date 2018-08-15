@@ -1,0 +1,10 @@
+<h1>
+    Categories
+</h1>
+<div class="card float-left m-2" style="width: 18rem;" ng-repeat="categorie in categories">
+    <div class="card-body">
+        <h5 class="card-title">{{categorie.name}}</h5>
+        <p class="card-text" style="height:100px;font-size:10px;">{{categorie.special_instructions}}</p>
+        <a href="#!items/{{categorie.id}}" class="btn btn-primary">Details</a>
+    </div>
+</div>
